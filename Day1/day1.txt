@@ -1,0 +1,70 @@
+Tools:
+	Sublime
+Browser:
+	Chrome, Safari, Firefox, IE9
+OS:
+ Any OS
+Frontend:
+	Browser
+Backend
+	Node, XAMPP, WAMP, LAMP, MongoDB
+
+Visual Designs, Mock ups, Wireframes, Protypes
+
+1. Requirement (ppt, pdf, docs)
+2. Wireframes / prototypes
+3. Visual Design
+4. Architeching App
+5. Testing - Agile, Scrum
+6. UAT / Product / Go Live
+
+
+Web / Mobile Fundas:
+
+Desktop, Mobile, Web, Hybrid
+
+Web:
+	Static
+		Fluid
+		fixed layout
+		responsive layout
+	Dynamic
+	Hybrid
+		Phonegap
+		Ionic Framework
+		React Native
+
+Layout
+
+
+HTML 4, CSS2/3
+	-
+
+	.html
+	.htm
+
+
+HTML:
+	Elements
+	Tags
+	Attributes
+
+Tag: <html></html>
+Short Tags, Empty Tags: <br />, <hr />
+
+Attributes: 
+
+Formatting Tags:
+Hyperlinks / Anchor
+Image
+Forms
+List
+Tables
+Meta Tags
+Media
+
+
+
+
+
+

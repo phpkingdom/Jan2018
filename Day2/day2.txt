@@ -1,0 +1,25 @@
+Day 2:
+
+Formatting Tags
+Headings
+
+Block vs Inline:
+Tables
+List
+
+
+Inline:
+	b
+	span
+	i
+	strong
+	em
+	a
+	img
+
+
+Block:
+	p
+	h1 to h6
+	list
+	div
