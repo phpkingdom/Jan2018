@@ -1,0 +1,42 @@
+anchors
+img
+list
+forms
+block level elements
+
+
+external
+interal
+
+Project Structure:
+
+ProjectName
+	css
+	js
+	images
+		index.html
+		about.html
+		service.html
+
+
+a
+	href, title, target, style, class, id
+
+img
+	src, alt, width, height, border
+
+list:
+	3 types
+
+	order
+	unorder
+	datalist
+
+forms
+	<form action="" method="">
+		<input />
+		
+
+	</form>
+
+
