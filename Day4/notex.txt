@@ -1,0 +1,75 @@
+Meta Tags
+Div 
+inline elements
+short tags
+media
+entities
+favicon
+doctypes
+
+transitional
+frameset
+strict
+
+xhtml
+
+
+real time tags:
+
+div
+h
+p
+ul, li
+a
+span
+img
+i
+b
+table
+form
+
+
+style css:
+
+cascading style sheet
+
+.css
+
+
+selector, property, value
+
+syntax:
+
+selector {
+	property: value;
+}
+
+selectors:
+
+element, id, class, attribute, inline selector
+
+property:
+background
+link
+table
+float
+block
+positions
+
+dimentions:
+	px
+	em
+	%
+	pt
+
+
+float:
+
+
+
+
+
+
+
+
+

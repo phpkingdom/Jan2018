@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+
+    * {
+    	margin: 0;
+    	padding: 0;
+    }
+    	.positions {
+           /* position: static/absolute/relative/fixed; 
+            top/left/right/bottom: 1px;
+            z-index:;
+           */
+        }
+
+        #blockA {
+            background-color: #f9f9f9;
+            height: 500px;
+            position: relative;
+        }
+
+        #A {
+          position: absolute;
+          left:  0;
+          top: 200px;
+          width: 100px;
+          height: 100px;
+          background-color: red;
+        }
+
+        #B {
+          position: absolute;
+          right:  0;
+          top: 200px;
+          width: 100px;
+          height: 100px;
+          background-color: yellow;
+        }
+
+
+        
+
+</style>
+  </head>
+  <body>
+    <div id="blockA">
+        <div id="A">My List</div>
+        <div id="B">My List</div>
+    </div>
+    
+  </body>
+</html>

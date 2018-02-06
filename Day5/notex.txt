@@ -1,0 +1,29 @@
+Day 5
+-----
+
+selectors
+	global selector
+	id selector
+	class selector
+	attribute selector
+	group selector
+	child selector
+floats
+box model
+	border
+	margin
+	padding
+		top
+		bottom
+		right
+		left
+	content
+background
+font
+
+
+colors:
+	color name : red, green, 
+	hex colors: #000000
+	rbg : rbg(255 255 0)
+	rbga: 

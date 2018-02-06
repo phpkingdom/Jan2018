@@ -1,0 +1,91 @@
+/*
+	1. header
+		logo
+		contact
+	2. menu
+	3. wrapper
+		3.1. banner
+		3.2. services
+		3.3. portfolio
+		3.4. about-company
+	4. footer
+	5. common
+		.container
+		.floatLeft
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px/22px arial;
+}
+
+.container {
+	margin: 0 auto;
+	width: 990px;
+}
+
+#header {
+	padding: 20px 10px;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+.floatLeft, 
+#logo,
+#contact,
+#menu ul li {
+	float: left;
+}
+
+#logo {
+	width: 330px;
+}
+
+#logo h4 {
+	color: #7ACCED;
+	font-size: 30px;
+}
+
+#logo h4 span {
+	font-weight: normal;
+	font-size: 20px;
+	color: #000;
+}
+#contact {
+	width: 660px;
+	text-align: right;
+}
+
+
+#menu {
+	clear: both;
+	background: #000;
+	overflow: hidden;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li a {
+	padding: 10px 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+#menu ul li  a.current, #menu ul li  a:hover {
+	background-color: #7ACCED;
+}
+
+#banner {
+	background-color: #f9f9f9;
+	height: 400px;
+}

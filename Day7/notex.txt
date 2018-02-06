@@ -1,0 +1,15 @@
+display
+positions
+pseudo classes
+
+	first-child
+	last-child
+	:hover
+	:active
+	:visited
+
+	:first-child + 
+	:last-child >
+
+table
+	border-collapse: collapse
