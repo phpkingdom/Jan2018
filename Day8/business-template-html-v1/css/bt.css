@@ -1,0 +1,251 @@
+/*
+	1. header
+		logo
+		contact
+	2. menu
+	3. wrapper
+		3.1. banner
+		3.2. services
+		3.3. portfolio
+		3.4. about-company
+	4. footer
+	5. common
+		.container
+		.floatLeft
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,h1,h2,h3,
+h4,h5,h6,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+body {
+	font-size: 62.5%;
+	background: #fff;
+	font-family: sans-serif;
+	line-height: 22px;
+	color: #444;
+}
+/* -------------------------------------------- */
+html, body {
+	position: relative;  /* this is necessary for children to properly use position: absolute */
+}
+code, pre { font-family: Consolas, Monaco, "Courier New", Courier, monospace; color: #000; }
+pre {
+	background: #f3f3f7;
+	border: 1px solid #dedee3;
+	padding: 11px;
+	font-size: 12px;
+	line-height: 1.3em;
+	margin-bottom: 22px;
+	overflow: auto;
+}
+pre a { font-weight: normal; }
+
+body {
+	font: 14px/22px 'Lato', arial;
+}
+
+.container {
+	margin: 0 auto;
+	width: 990px;
+}
+
+#header {
+	padding: 20px 10px;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+.floatLeft, 
+#logo,
+#contact,
+#menu ul li,
+#services .container div,
+#portfolio .container div,
+#portfolio .container div ul li,
+#about-company .container .block {
+	float: left;
+}
+
+#logo {
+	width: 330px;
+}
+
+#logo h4 {
+	color: #7ACCED;
+	font-size: 30px;
+}
+
+#logo h4 span {
+	font-weight: normal;
+	font-size: 20px;
+	color: #000;
+}
+#contact {
+	width: 660px;
+	text-align: right;
+}
+
+
+#menu {
+	clear: both;
+	background: #000;
+	overflow: hidden;
+}
+
+#menu ul, #portfolio .container div ul {
+	list-style: none;
+}
+
+#menu ul li a {
+	padding: 10px 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+#menu ul li  a.current, #menu ul li  a:hover {
+	background-color: #7ACCED;
+}
+
+#banner {
+	background-color: #f9f9f9;
+	height: 400px;
+}
+
+#services {
+	position: relative;
+	bottom: 50px;
+}
+
+#services .container div {
+	background-color: #7ACCED;
+	width: 227px;
+	color: #fff;
+	padding: 10px 10px;
+}
+
+#services .container div i {
+	font-size: 30px;
+}
+
+#services .container div:hover {
+	background-color: #57AACE;
+	
+}
+
+#services .container div p {
+	padding-top: 10px;
+}
+
+
+#portfolio {
+	padding: 10px 0;
+	clear: both;
+	
+}
+
+#portfolio .container {
+	border-bottom: 2px solid #7ACCED;
+	overflow: hidden;
+}
+
+#portfolio .container div {
+	width: 480px;
+	margin: 0 5px 0 0;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+
+}
+
+#portfolio .container div ul li {
+	padding: 0 10px;
+}
+
+#portfolio .container div ul li:first-child {
+	width: 10%;
+}
+#portfolio .container div ul li:last-child {
+	width: 80%;
+}
+
+#portfolio .container div ul li h3 {
+	color: #57AACE;
+	font-weight: normal;
+}
+
+#portfolio .container div ul li span {
+	display: block;
+	background-color: #57AACE;
+	padding: 10px 10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+#about-company {
+
+}
+
+#about-company .container {
+
+}
+
+#about-company .container .block{
+	width: 325px;
+	padding: 10px 0;
+	margin: 2px 2px;
+}
+
+#about-company .container .block div {
+	background: #57AACE;
+	padding: 20px 10px;
+	color: #fff;
+}
+
+#about-company .container .block div h4 {
+	padding: 10px 10px;
+	font-size: 25px;
+	border-bottom: 1px solid #fff;
+}
+
+#about-company .container .block div h5 {
+	padding: 10px 0;
+}
+
+
+#about-company .container .block div h6 {
+	padding: 10px 0;
+	font-size: 20px;
+	border-top: 1px solid #fff;
+}
+#about-company .container .block ul {
+	list-style-image: url(../images/tick.png);
+	padding-left: 20px;
+}
+
+#about-company .container .block ul li a {
+	color: #7ACCED;
+	background-color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#about-company .container .block  a {
+	background: #7ACCED;
+	color: #fff;
+	padding: 10px 10px;
+	display: inline-block;
+	margin: 5px 5px;
+	text-decoration: none;
+}
